@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Максим Рудой](https://up.htmlacademy.ru/htmlcss/34/user/1934689).
-* Наставник: `Неизвестно`.
+- Студент: [Максим Рудой](https://up.htmlacademy.ru/htmlcss/34/user/1934689).
+- Наставник: [Алена Сафьянникова](https://htmlacademy.ru/profile/safyann).
 
 ---
 
