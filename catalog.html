@@ -122,22 +122,23 @@
       </form>
     </section>
     <section class="result-filtres">
-      <h2 class="visually-hidden">Вывод результат фильтра</h2>
-      <h3 class="result-amont-found-hotels">Найдено гостиниц:</h3>
+      <h2 class="result-amont-found-hotels">Найдено гостиниц:38</h2>
       <select class="select-control" aria-label="Сортировка">
         <option value="cheap">Сначала дешёвое</option>
         <option value="popular">Сначала популярное</option>
         <option value="expensive">Сначала дорогое</option>
       </select>
-      <a href="#" class="result-filtres-icon icon-table">
-        <span class="visually-hidden">Показать таблицу</span>
-      </a>
-      <a href="#" class="result-filtres-icon icon-slideshow">
-        <span class="visually-hidden">Показать слайд</span>
-      </a>
-      <a href="#" class="result-filtres-icon icon-list">
-        <span class="visually-hidden">Показать список</span>
-      </a>
+      <div class="result-filtres-icon">
+        <a href="#" class="icon-table">
+          <span class="visually-hidden">Показать таблицу</span>
+        </a>
+        <a href="#" class="icon-slideshow">
+          <span class="visually-hidden">Показать слайд</span>
+        </a>
+        <a href="#" class="icon-list">
+          <span class="visually-hidden">Показать список</span>
+        </a>
+      </div>
       <ul class="hotel-card-list">
         <li class="hotel-card">
           <a class="hotel-card-link" href="hotel.html">
@@ -147,13 +148,14 @@
           <span class="hotel-card-type">Гостиница</span>
           <b class="hotel-card-price">От 4000 ₽</b>
           <a class="hotel-card-button-more button" href="#">подробнее</a>
-          <a class="hotel-card-button button-favorites" href="#">в избранное</a>
-          <link rel="stylesheet" href="#">
+          <form class="hotel-card-button">
+            <button class="button-favorites" name="favorites">в избранное</button>
+          </form>
           <span class="hotel-card-rate star-rate checked"></span>
           <span class="hotel-card-rate star-rate checked"></span>
           <span class="hotel-card-rate star-rate checked"></span>
           <span class="hotel-card-rate star-rate checked"></span>
-          <b class="hotel-card-rate">Рейтинг:</b>
+          <b class="hotel-card-rate">Рейтинг:8.5</b>
         </li>
         <li class="hotel-card">
           <a class="hotel-card-link" href="hotel.html">
@@ -169,7 +171,7 @@
           <span class="hotel-card-rate star-rate checked"></span>
           <span class="hotel-card-rate star-rate checked"></span>
           <span class="hotel-card-rate star-rate checked"></span>
-          <b class="hotel-card-rate">Рейтинг:</b>
+          <b class="hotel-card-rate">Рейтинг:9.2</b>
         </li>
         <li class="hotel-card">
           <a class="hotel-card-link" href="hotel.html">
@@ -184,7 +186,7 @@
           <span class="hotel-card-rate star-rate checked"></span>
           <span class="hotel-card-rate star-rate checked"></span>
           <span class="hotel-card-rate star-rate checked"></span>
-          <b class="hotel-card-rate">Рейтинг:</b>
+          <b class="hotel-card-rate">Рейтинг:6.9</b>
         </li>
         <li class="hotel-card">
           <a class="hotel-card-link" href="hotel.html">
@@ -198,7 +200,7 @@
           <link rel="stylesheet" href="#">
           <span class="hotel-card-rate star-rate checked"></span>
           <span class="hotel-card-rate star-rate checked"></span>
-          <b class="hotel-card-rate">Рейтинг:</b>
+          <b class="hotel-card-rate">Рейтинг:5.0</b>
         </li>
       </ul>
       <ul class="pagination">
@@ -240,16 +242,14 @@
       <h2 class="subscription-title">Подпишитесь на рассылку</h2>
       <p class="subscription-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
       <form class="subscription" action="https://echo.htmlacademy.ru/" method="post">
-        <p class="subscription-form-email">
-          <input class="subscription-email" type="email" id="subscription-email" name="subscription-email"
-            placeholder="Ваш e-mail">
-          <input class="subscription-link" type="submit" value="Подписаться">
-        </p>
+        <input class="subscription-email" type="email" id="subscription-email" name="subscription-email"
+          placeholder="Ваш e-mail">
+        <button class="subscription-button" type="submit" name="submit-button" value="Подписаться">Подписаться</button>
       </form>
     </section>
   </main>
   <footer class="page-footer">
-    <section class="footer-social">
+    <div class="footer-social">
       <h2 class="visually-hidden">Социальные сети</h2>
       <ul class="footer-social-list">
         <li class="footer-social-item">
@@ -268,17 +268,17 @@
           </a>
         </li>
       </ul>
-    </section>
-    <section class="footer-contacts">
+    </div>
+    <div class="footer-contacts">
       <h2 class="visually-hidden">Контактный телефон</h2>
       <a class="footer-contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
-    </section>
-    <section class="footer-link">
+    </div>
+    <div class="footer-link">
       <h2 class="visually-hidden">ссылка логотип htmlacademy</h2>
       <a class="footer-logo" href="https://htmlacademy.ru/">
         <img src="images/logo.jpg" title="логотоип htmlacademy" width="115" height="33">
       </a>
-    </section>
+    </div>
   </footer>
 </body>
 

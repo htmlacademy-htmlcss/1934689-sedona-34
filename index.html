@@ -58,26 +58,6 @@
       <h3>Седона — небольшой городок в Аризоне,<br>
         заслуживающий большего!</h3>
       <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
-      <ul class="adventages-features-list">
-        <li class="features-item">
-          <h3 class="features-title">Жильё</h3>
-          <p class="features-description">Рекомендуем пожить в настоящем мотеле,
-            всё как в кино!</p>
-          <img class="features-icon" src="#" title="домик" width="75" height="72">
-        </li>
-        <li class="features-item">
-          <h3 class="features-title">Еда</h3>
-          <p class="features-description">Всегда заказывайте
-            топовый фирменный бургер, вы не разочаруетесь!</p>
-          <img class="-features-icon" src="#" title="гамбургер" width="74" height="70">
-        </li>
-        <li class="features-item">
-          <h3 class="features-title">Сувениры</h3>
-          <p class="features-description">Не только китайского,
-            но и настоящего местного производства!</p>
-          <img class="features-icon" src="#" title="подарок" width="75" height="72">
-        </li>
-      </ul>
       <ul class="adventages-list">
         <li class="adventages-one">
           <h3 class="adventages-one-title">Настоящий городок</h3>
@@ -85,6 +65,24 @@
           <p class="adventages-one-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
           <img class="adventages-one-photo" src="images/photo-1.jpg" title="улицы города Седона" width="800"
             height="384">
+        </li>
+        <li class="adventages-features-item">
+          <h3 class="adventages-features-title">Жильё</h3>
+          <p class="adventages-features-description">Рекомендуем пожить в настоящем мотеле,
+            всё как в кино!</p>
+          <img class="adventages-features-icon" src="#" title="домик" width="75" height="72">
+        </li>
+        <li class="adventages-features-item">
+          <h3 class="adventages-features-title">Еда</h3>
+          <p class="adventages-features-description">Всегда заказывайте
+            топовый фирменный бургер, вы не разочаруетесь!</p>
+          <img class="adventages-features-icon" src="#" title="гамбургер" width="74" height="70">
+        </li>
+        <li class="adventages-features-item">
+          <h3 class="adventages-features-title">Сувениры</h3>
+          <p class="adventages-features-description">Не только китайского,
+            но и настоящего местного производства!</p>
+          <img class="adventages-features-icon" src="#" title="подарок" width="75" height="72">
         </li>
         <li class="adventages-two">
           <h3 class="adventages-two-title">Там есть
@@ -124,16 +122,14 @@
       <h2 class="subscription-title">Подпишитесь на рассылку</h2>
       <p class="subscription-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
       <form class="subscription" action="https://echo.htmlacademy.ru/" method="post">
-        <p class="subscription-form-email">
-          <input class="subscription-email" type="email" id="subscription-email" name="subscription-email"
-            placeholder="Ваш e-mail">
-          <input class="subscription-link" type="submit" value="Подписаться">
-        </p>
+        <input class="subscription-email" type="email" id="subscription-email" name="subscription-email"
+          placeholder="Ваш e-mail">
+        <button class="subscription-button" type="submit" name="submit-button" value="Подписаться">Подписаться</button>
       </form>
     </section>
   </main>
   <footer class="page-footer">
-    <section class="footer-social">
+    <div class="footer-social">
       <h2 class="visually-hidden">Социальные сети</h2>
       <ul class="footer-social-list">
         <li class="footer-social-item">
@@ -152,17 +148,17 @@
           </a>
         </li>
       </ul>
-    </section>
-    <section class="footer-contacts">
+    </div>
+    <div class="footer-contacts">
       <h2 class="visually-hidden">Контактный телефон</h2>
       <a class="footer-contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
-    </section>
-    <section class="footer-link">
+    </div>
+    <div class="footer-link">
       <h2 class="visually-hidden">ссылка логотип htmlacademy</h2>
       <a class="footer-logo" href="https://htmlacademy.ru/">
         <img src="images/logo.jpg" title="логотоип htmlacademy" width="115" height="33">
       </a>
-    </section>
+    </div>
   </footer>
 </body>
 
