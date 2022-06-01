@@ -2,7 +2,7 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
-  src: url("fonts/pt-sans-regular.woff2") format("woff2");
+  src: url("../fonts/pt-sans-regular.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -10,7 +10,7 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
-  src: url("fonts/pt-sans-bold.woff2") format("woff2");
+  src: url("../fonts/pt-sans-bold.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -62,7 +62,7 @@ body {
 
 .index-background {
   color: #000000;
-  background-image: url("/1934689-sedona-34/images/main/hero/index-background.jpg");
+  background-image: url("../images/main/hero/index-background.jpg");
   background-color: #ffffff;
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -187,7 +187,7 @@ body {
 
 .subscription {
   color: #000000;
-  background-image: url("/1934689-sedona-34/images/main/background.jpg");
+  background-image: url("../images/main/background.jpg");
   background-color: #ffffff;
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -233,7 +233,7 @@ body {
 
 .main-inner {
   color: #000000;
-  background-image: url("/1934689-sedona-34/images/catalog/filtr-cataog.jpg");
+  background-image: url("../images/catalog/filtr-cataog.jpg");
   background-color: #ffffff;
   background-size: 100% auto;
   background-repeat: no-repeat;
