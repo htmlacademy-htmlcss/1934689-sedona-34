@@ -410,11 +410,12 @@ form button {
 
 /*Страница Каталога*/
 
-.main-inner {
+.filter-background {
   width: 1200px;
+  height: 430px;
   margin: 0 auto;
   color: #000000;
-  background-image: url("../images/catalog/filtr-cataog.jpg");
+  background-image: url("../images/catalog/filtr-catalog.jpg");
   background-color: #ffffff;
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -426,6 +427,7 @@ form button {
   margin: 0;
   padding: 0;
 }
+
 .inner-filtres-title {
   width: 495px;
   margin-left: 70px;
@@ -542,6 +544,8 @@ form button {
 
 .result-amont-found-hotels {
   width: 338px;
+  margin-right: 190px;
+  margin-left: 72px;
   color: #000000;
   font-size: 30px;
   line-height: 36px;
@@ -552,6 +556,7 @@ form button {
 
 .select-control {
   width: 290px;
+  height: 49px;
 }
 
 .icon-sort {
