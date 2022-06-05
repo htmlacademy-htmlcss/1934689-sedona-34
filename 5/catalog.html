@@ -47,81 +47,83 @@
   <!--Фильтр каталога-->
   <main class="main-inner main-container">
     <div class="page-container">
-      <section class="inner-filtres">
-        <h1 class="inner-filtres-title">Гостиницы Седоны</h1>
-        <ul class="filtres-breadcrambs">
-          <li class="filtres-breadcrambs-item">
-            <a class="breadcrambs-link">Гостиницы</a>
-          </li>
-        </ul>
-        <h2 class="visually-hidden">Фильтр выбора гостиницы</h2>
-        <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
+      <div class="filter-background" width="1200" height="430">
+        <section class="inner-filtres">
+          <h1 class="inner-filtres-title">Гостиницы Седоны</h1>
+          <ul class="filtres-breadcrambs">
+            <li class="filtres-breadcrambs-item">
+              <a class="breadcrambs-link">Гостиницы</a>
+            </li>
+          </ul>
+          <h2 class="visually-hidden">Фильтр выбора гостиницы</h2>
+          <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
 
-          <fieldset class="catalog-filter-group group-infra">
-            <legend class="catalog-filter-title ">Инфраструктура:</legend>
-            <ul class="catalog-filter-list">
-              <li class="catalog-filter-item">
-                <label class="control">
-                  <input class="control-input" type="checkbox" name="Swimming-pool" checked>
+            <fieldset class="catalog-filter-group group-infra">
+              <legend class="catalog-filter-title ">Инфраструктура:</legend>
+              <ul class="catalog-filter-list">
+                <li class="catalog-filter-item">
+                  <label class="control">
+                    <input class="control-input" type="checkbox" name="Swimming-pool" checked>
 
-                  Бассейн
-                </label>
-              </li>
-              <li class="catalog-filter-item">
-                <label class="control">
-                  <input class="control-input" type="checkbox" name="Parking" checked>
+                    Бассейн
+                  </label>
+                </li>
+                <li class="catalog-filter-item">
+                  <label class="control">
+                    <input class="control-input" type="checkbox" name="Parking" checked>
 
-                  Парковка
-                </label>
-              </li>
-              <li class="catalog-filter-item">
-                <label class="control">
-                  <input class="control-input" type="checkbox" name="Wi-Fi">
+                    Парковка
+                  </label>
+                </li>
+                <li class="catalog-filter-item">
+                  <label class="control">
+                    <input class="control-input" type="checkbox" name="Wi-Fi">
 
-                  Wi-Fi
-                </label>
-              </li>
-            </ul>
-          </fieldset>
+                    Wi-Fi
+                  </label>
+                </li>
+              </ul>
+            </fieldset>
 
-          <fieldset class="catalog-filter-group group-type">
-            <legend class="catalog-filter-title">Тип жилья:</legend>
-            <ul class="catalog-filter-list">
-              <li class="catalog-filter-item">
-                <label class="control">
-                  <input class="control-input" type="radio" name="type-housing" value="Hotel" checked>
+            <fieldset class="catalog-filter-group group-type">
+              <legend class="catalog-filter-title">Тип жилья:</legend>
+              <ul class="catalog-filter-list">
+                <li class="catalog-filter-item">
+                  <label class="control">
+                    <input class="control-input" type="radio" name="type-housing" value="Hotel" checked>
 
-                  Гостиница
-                </label>
-              </li>
-              <li class="catalog-filter-item">
-                <label class="control">
-                  <input class="control-input" type="radio" name="type-housing" value="Motel">
+                    Гостиница
+                  </label>
+                </li>
+                <li class="catalog-filter-item">
+                  <label class="control">
+                    <input class="control-input" type="radio" name="type-housing" value="Motel">
 
-                  Мотель
-                </label>
-              </li>
-              <li class="catalog-filter-item">
-                <label class="control">
-                  <input class="control-input" type="radio" name="type-housing" value="Appartement">
+                    Мотель
+                  </label>
+                </li>
+                <li class="catalog-filter-item">
+                  <label class="control">
+                    <input class="control-input" type="radio" name="type-housing" value="Appartement">
 
-                  Апартаменты
-                </label>
-              </li>
-            </ul>
-          </fieldset>
+                    Апартаменты
+                  </label>
+                </li>
+              </ul>
+            </fieldset>
 
-          <fieldset class="catalog-filter-price">
-            <label class="filter-price-title">
-              Стоимость,&#8381;
-              <!--знак Рубля-->
-            </label>
-          </fieldset>
-          <div class="filter-buttons">
-            <button class="catalog-filter-button button" type="submit">Применить</button>
-            <button class="button-reset" type="reset" value="Сбросить">Сбросить</button>
-          </div>
-        </form>
+            <fieldset class="catalog-filter-price">
+              <label class="filter-price-title">
+                Стоимость,&#8381;
+                <!--знак Рубля-->
+              </label>
+            </fieldset>
+            <div class="filter-buttons">
+              <button class="catalog-filter-button button" type="submit">Применить</button>
+              <button class="button-reset" type="reset" value="Сбросить">Сбросить</button>
+            </div>
+      </div>
+      </form>
       </section>
 
       <!--Каталог гостиниц-->
