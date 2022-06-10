@@ -52,12 +52,15 @@
   <!--Фильтр каталога-->
   <main class="main-inner main-container">
     <div class="page-container">
-      <div class="filter-background" width="1200" height="430">
+      <div class="filter-background" width="1200" height="426">
         <section class="inner-filtres">
           <h1 class="inner-filtres-title">Гостиницы Седоны</h1>
           <ul class="filtres-breadcrambs">
             <li class="filtres-breadcrambs-item">
               <a class="breadcrambs-link">Гостиницы</a>
+            </li>
+            <li class="filtres-breadcrambs-item visually-hidden">
+              <a class="breadcrambs-link link-homepage">Главная</a>
             </li>
           </ul>
           <h2 class="visually-hidden">Фильтр выбора гостиницы</h2>
@@ -80,7 +83,7 @@
                     Парковка
                   </label>
                 </li>
-                <li class="catalog-filter-item">
+                <li class="catalog-filter-item filter-item-last">
                   <label class="control">
                     <input class="control-input" type="checkbox" name="Wi-Fi">
 
@@ -107,7 +110,7 @@
                     Мотель
                   </label>
                 </li>
-                <li class="catalog-filter-item">
+                <li class="catalog-filter-item filter-item-last">
                   <label class="control">
                     <input class="control-input" type="radio" name="type-housing" value="Appartement">
 
@@ -142,6 +145,11 @@
             <option value="popular">Сначала популярное</option>
             <option value="expensive">Сначала дорогое</option>
           </select>
+          <ul class="result-filtres-sort-icon">
+            <li class="result-filtres-sort icon-table"></li>
+            <li class="result-filtres-sort icon-slide"></li>
+            <li class="result-filtres-sort icon-list"></li>
+          </ul>
         </div>
 
         <!--Карточки гостиниц-->
@@ -271,10 +279,10 @@
       </section>
 
       <!--Подписка-->
-      <section class="inner-subscription">
+      <section class="inner-subscription" width="1200" height="411">
         <h2 class="inner-subscription-title">Подпишитесь на рассылку</h2>
         <p class="inner-subscription-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
-        <form class="inner-subscription" action="https://echo.htmlacademy.ru/" method="post">
+        <form class="inner-subscription-form" action="https://echo.htmlacademy.ru/" method="post">
           <label class="visually-hidden" for="subscription-email">Емеил</label>
           <input class="inner-subscription-email" type="email" id="subscription-email" name="subscription-email"
             placeholder="Ваш e-mail">

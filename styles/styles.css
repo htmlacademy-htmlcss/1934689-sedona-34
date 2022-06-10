@@ -24,7 +24,7 @@ body {
   min-height: 100%;
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 22px;
   color: #333333;
   background-color: #ffffff;
 }
@@ -60,8 +60,8 @@ form button {
   display: block;
   z-index: 1;
   align-self: center;
-  width: 139px;
-  margin-left: 47px;
+  width: 140px;
+  margin-left: 48px;
 }
 
 /*Навигация */
@@ -144,20 +144,20 @@ form button {
   background-color: #ffffff;
   background-size: 100% auto;
   background-repeat: no-repeat;
-  margin-bottom: 63px;
+  margin-bottom: 64px;
 }
 
 .main-welcome {
   display: block;
   margin: 0 auto;
-  padding-top: 51px;
-  margin-bottom: 11px;
+  padding-top: 52px;
+  margin-bottom: 12px;
 }
 
 .main-to-the-gorgeus {
   display: block;
   margin: 0 auto;
-  margin-bottom: 53px;
+  margin-bottom: 54px;
 }
 
 .main-sedona {
@@ -180,7 +180,7 @@ form button {
   text-transform: uppercase;
   color: #000000;
   margin: 0;
-  margin-bottom: 31px;
+  margin-bottom: 32px;
 }
 
 .hero-adventages-text {
@@ -238,7 +238,7 @@ form button {
   text-align: center;
   color: #ffffff;
   width: 230px;
-  height: 21px;
+  height: 22px;
 }
 
 .adventages-description {
@@ -248,7 +248,7 @@ form button {
   text-align: center;
   color: #ffffff;
   width: 230px;
-  height: 63px;
+  height: 64px;
   margin: 0;
   margin-top: 30px;
   padding: 0;
@@ -294,7 +294,7 @@ form button {
   font-family: "PT Sans", sans-serif;
   font-style: normal;
   width: 230px;
-  height: 63px;
+  height: 64px;
   font-weight: 400;
   text-align: center;
   color: #333333;
@@ -318,7 +318,7 @@ form button {
   flex-direction: column;
   width: 400px;
   margin: 0;
-  padding: 103px 85px;
+  padding: 104px 85px;
 }
 
 .adventages-title-black {
@@ -338,7 +338,7 @@ form button {
 }
 .adventages-symbol-black {
   width: 230px;
-  height: 21px;
+  height: 22px;
   font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -370,7 +370,7 @@ form button {
   text-align: center;
   text-transform: uppercase;
   color: #000000;
-  margin-top: 91px;
+  margin-top: 92px;
   margin-bottom: 30px;
   padding: 0;
 }
@@ -403,7 +403,7 @@ form button {
   height: 60px;
   background: #756157;
   border-radius: 4px;
-  margin-bottom: 93px;
+  margin-bottom: 94px;
   padding: 0;
 }
 
@@ -503,7 +503,7 @@ form button {
   text-transform: uppercase;
   color: #000000;
   text-decoration: none;
-  width: 331px;
+  width: 332px;
   height: 40px;
   margin-top: 45px;
   margin-bottom: 35px;
@@ -512,9 +512,9 @@ form button {
 .footer-logo {
   display: inline-block;
   width: 115px;
-  height: 33px;
+  height: 34px;
   margin-left: auto;
-  margin-top: 49px;
+  margin-top: 50px;
   margin-bottom: 38px;
   margin-right: 70px;
 }
@@ -523,13 +523,14 @@ form button {
 
 .filter-background {
   width: 1200px;
-  height: 485px;
+  height: 426px;
   margin: 0 auto;
   color: #000000;
   background-image: url("../images/catalog/filtr-catalog.jpg");
   background-color: #ffffff;
   background-size: 100% auto;
   background-repeat: no-repeat;
+  margin-bottom: 50px;
 }
 
 /*Фильтр каталога*/
@@ -540,36 +541,46 @@ form button {
 }
 
 .inner-filtres-title {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
   width: 495px;
   margin-left: 70px;
   font-size: 60px;
   font-weight: 700;
   color: #ffffff;
+  margin: 0;
+  margin-bottom: 10px;
+  padding-top: 36px;
+  padding-left: 70px;
+}
+
+.filtres-breadcrambs {
+  display: flex;
+  width: 110px;
+  margin: 0;
+  margin-left: 72px;
+  padding: 0;
+  list-style-type: none;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.filtres-breadcrambs-item {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  width: 74px;
+  height: 22px;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-right: 24px;
 }
 
 .filtres-breadcrambs-link {
   text-decoration: none;
 }
-
-.filtres-breadcrambs {
-  list-style-type: none;
-}
-
-.filtres-breadcrambs-item {
-  margin-left: 110px;
-  font-size: 16px;
-  line-height: 21px;
-  font-weight: 400;
-  color: #ffffff;
-}
-
 /*Чекбокс*/
-
-.catalog-filter-list {
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-}
 
 .catalog-filter {
   display: flex;
@@ -577,25 +588,53 @@ form button {
   margin: 0;
 }
 
-.catalog-filter-title {
-  font-size: 20px;
-  line-height: 26px;
-  font-weight: 700;
-  color: #ffffff;
-}
-.control {
-  font-weight: 400;
-  color: #ffffff;
-}
-
 .catalog-filter-group {
+  padding: 0;
   margin-right: 70px;
+  margin-left: 70px;
   width: 220px;
   border: none;
 }
 
 .group-type {
   margin-right: 176px;
+}
+
+.catalog-filter-title {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.catalog-filter-list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.catalog-filter-item {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.filter-item-last {
+  padding: 0;
+  margin: 0;
+}
+
+.control {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  color: #ffffff;
 }
 
 .catalog-filter-price {
@@ -608,23 +647,25 @@ form button {
   flex-direction: column;
   justify-content: center;
   padding: 0;
-  margin: 0;
+  margin-top: 60px;
 }
 .catalog-filter-button {
+  display: inline-block;
   margin-right: 70px;
-  width: 161px;
+  width: 162px;
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
   font-size: 16px;
   line-height: 20px;
   font-weight: 700;
   text-align: center;
-  color: #ffffff;
   text-transform: uppercase;
+  color: #ffffff;
   background-color: #82b3d3;
-  display: inline-block;
   height: 48px;
   border-radius: 4px;
-  padding: 14px 15px;
-  text-transform: uppercase;
+  padding: 15px 15px;
+  margin-bottom: 20px;
 }
 
 .button-reset {
@@ -634,6 +675,8 @@ form button {
   border: 0;
   /*прозрачный фон кнопки для "Сбросить"*/
   background-color: rgba(28, 28, 28, 0);
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
   font-size: 16px;
   line-height: 20px;
   font-weight: 400;
@@ -655,19 +698,26 @@ form button {
 
 .result-amont-found-hotels {
   width: 338px;
-  margin-right: 190px;
-  margin-left: 72px;
-  color: #000000;
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
+  color: #000000;
+  padding: 0 192px 0 72px;
+  margin: 0;
+  margin-bottom: 62px;
+}
+
+.result-filtres-sort {
+  list-style-type: none;
 }
 
 .select-control {
   width: 290px;
-  height: 49px;
+  height: 50px;
 }
 
 .icon-sort {
@@ -682,58 +732,100 @@ form button {
   padding: 0;
   margin: 0;
   list-style-type: none;
-}
-
-.hotel-card {
-  width: 340px;
-  height: 438px;
-  margin-left: 18px;
-}
-
-.hotel-card-title {
-  color: #000000;
-  font-size: 24px;
-  line-height: 28px;
-  font-weight: 700;
+  margin-left: 72px;
 }
 
 .hotel-card-link {
   text-decoration: none;
 }
 
+.hotel-card {
+  width: 300px;
+  height: 438px;
+  margin: 20px;
+}
+
+.hotel-card-image {
+  margin-bottom: 16px;
+}
+
+.hotel-card-title {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 16px;
+}
+
 .hotel-card-type {
+  width: 140px;
+  height: 22px;
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
   font-weight: 400;
   color: #333333;
+  margin-right: 20px;
 }
 
-.button-favorites {
-  font-size: 16px;
-  line-height: 20px;
-  font-weight: 700;
-  text-align: center;
-  color: #ffffff;
-  text-transform: uppercase;
-  background-color: #82b3d3;
-}
-
-.favorites-current {
-  font-size: 16px;
-  line-height: 20px;
-  font-weight: 700;
-  text-align: center;
-  color: #ffffff;
-  text-transform: uppercase;
-  background-color: #7db54f;
+.hotel-card-price {
+  width: 140px;
+  height: 22px;
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  color: #333333;
+  margin-bottom: 16px;
 }
 
 .hotel-card-button-more {
+  width: 140px;
+  height: 37px;
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
   font-size: 16px;
   line-height: 20px;
   font-weight: 700;
   text-align: center;
-  color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
+  color: #ffffff;
+  background: #756157;
+  border-radius: 4px;
+  padding: 9px 15px;
+}
+
+.button-favorites {
+  width: 140px;
+  height: 37px;
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #82b3d3;
+  border-radius: 4px;
+  padding: 9px 15px;
+  margin-right: 20px;
+}
+
+.favorites-current {
+  width: 140px;
+  height: 37px;
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #7db54f;
+  border-radius: 4px;
+  padding: 9px 15px;
 }
 
 .hotel-card-rate {
@@ -753,6 +845,8 @@ form button {
 
 .pagination {
   display: flex;
+  margin: 0;
+  padding: 0;
   list-style-type: none;
 }
 
@@ -771,26 +865,43 @@ form button {
   border-radius: 4px;
   padding: 12px 25px 12px 25px;
 }
-
+.pagination-link {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
 .pagination-current {
   background-color: #f2f2f2;
   color: #000000;
 }
 
 .amount-cards {
-  color: #333333;
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
   font-weight: 400;
   width: 175px;
+  height: 22px;
   margin-left: auto;
   margin-right: 51px;
+  color: #333333;
+  padding-top: 30px;
 }
 
 .select-amount-cards {
   width: 160px;
-  height: 49px;
+  height: 48px;
+  margin-top: 18px;
+  margin-right: 70px;
 }
 
 /*подписка на странице каталога*/
+
 .inner-subscription {
   display: block;
   width: 1200px;
@@ -800,42 +911,85 @@ form button {
   background-color: #ffffff;
   background-size: 100% auto;
   background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
 }
 
 .inner-subscription-title {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
   text-align: center;
-  color: #000000;
   text-transform: uppercase;
+  color: #000000;
+  padding-top: 94px;
+  margin-bottom: 30px;
 }
 
 .inner-subscription-description {
+  width: 475px;
+  height: 52px;
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
   font-size: 22px;
   line-height: 26px;
   font-weight: 400;
   text-align: center;
   color: #000000;
+  margin: 0 auto;
+  margin-bottom: 46px;
+  padding: 0;
 }
-.inner-subscription {
+
+.inner-subscription-form {
   display: block;
   margin: 0 auto;
   text-align: center;
+  margin-bottom: 94px;
+  padding: 0;
 }
+
 .inner-subscription-button {
   font-size: 20px;
   line-height: 36px;
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
   font-weight: 700;
   text-align: center;
-  color: #000000;
+  color: #ffffff;
   text-transform: uppercase;
+  width: 200px;
+  height: 60px;
   background-color: #82b3d3;
+  border-radius: 0px 10px 10px 0px;
+  margin-bottom: 94px;
+  padding: 0;
 }
 
 /*Подвал*/
+.footer-social {
+  margin-left: auto;
+  margin-right: 70px;
+  max-width: 180px;
+}
+
+.footer-social-item {
+  width: 24px;
+  height: 16px;
+  margin-right: 26px;
+}
+
+.footer-social-item:nth-child(3n) {
+  margin-right: 0;
+}
 
 .footer-social-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
   list-style-type: none;
 }
 .footer-social-button {
