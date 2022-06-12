@@ -73,11 +73,15 @@ form button {
   margin: 0 auto;
   padding: 0;
 }
+.navigation-user {
+  margin-left: auto;
+  margin-right: 70px;
+}
+
 .navigation-list {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  padding: 20px 20px;
   width: 600px;
   margin: 0;
   padding: 0;
@@ -91,7 +95,7 @@ form button {
 
 .navigation-link {
   display: block;
-  padding: 20px 34px;
+  padding: 20px 20px 34px;
   font-family: "PT Sans", sans-serif;
   font-size: 20px;
   line-height: 26px;
@@ -266,9 +270,15 @@ form button {
   list-style-type: none;
   background-color: rgba(131, 179, 211, 0.12);
 }
+
 .adventages-features-item {
   margin: 80px 85px;
   padding: 0;
+}
+.adventages-features-item:nth-child(2n) {
+  background-color: white;
+  margin: 0;
+  padding: 80px 85px;
 }
 
 .features-icon {
@@ -319,6 +329,12 @@ form button {
   width: 400px;
   margin: 0;
   padding: 104px 85px;
+}
+
+.adventages-item:nth-child(2n) {
+  background-color: rgba(131, 179, 211, 0.2);
+  margin: 0;
+  padding: 80px 85px;
 }
 
 .adventages-title-black {
