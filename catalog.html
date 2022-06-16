@@ -65,73 +65,79 @@
           </ul>
           <h2 class="visually-hidden">Фильтр выбора гостиницы</h2>
           <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
+            <div class="left-catalog-filter">
 
-            <fieldset class="catalog-filter-group group-infra">
-              <legend class="catalog-filter-title ">Инфраструктура:</legend>
-              <ul class="catalog-filter-list">
-                <li class="catalog-filter-item">
-                  <label class="control">
-                    <input class="control-input" type="checkbox" name="Swimming-pool" checked>
+              <fieldset class="catalog-filter-group group-infra">
+                <legend class="catalog-filter-title ">Инфраструктура:</legend>
+                <ul class="catalog-filter-list">
+                  <li class="catalog-filter-item">
+                    <label class="control">
+                      <input class="control-input" type="checkbox" name="Swimming-pool" checked>
 
-                    Бассейн
-                  </label>
-                </li>
-                <li class="catalog-filter-item">
-                  <label class="control">
-                    <input class="control-input" type="checkbox" name="Parking" checked>
+                      Бассейн
+                    </label>
+                  </li>
+                  <li class="catalog-filter-item">
+                    <label class="control">
+                      <input class="control-input" type="checkbox" name="Parking" checked>
 
-                    Парковка
-                  </label>
-                </li>
-                <li class="catalog-filter-item filter-item-last">
-                  <label class="control">
-                    <input class="control-input" type="checkbox" name="Wi-Fi">
+                      Парковка
+                    </label>
+                  </li>
+                  <li class="catalog-filter-item filter-item-last">
+                    <label class="control">
+                      <input class="control-input" type="checkbox" name="Wi-Fi">
 
-                    Wi-Fi
-                  </label>
-                </li>
-              </ul>
-            </fieldset>
+                      Wi-Fi
+                    </label>
+                  </li>
+                </ul>
+              </fieldset>
 
-            <fieldset class="catalog-filter-group group-type">
-              <legend class="catalog-filter-title">Тип жилья:</legend>
-              <ul class="catalog-filter-list">
-                <li class="catalog-filter-item">
-                  <label class="control">
-                    <input class="control-input" type="radio" name="type-housing" value="Hotel" checked>
+              <fieldset class="catalog-filter-group group-type">
+                <legend class="catalog-filter-title">Тип жилья:</legend>
+                <ul class="catalog-filter-list">
+                  <li class="catalog-filter-item">
+                    <label class="control">
+                      <input class="control-input" type="radio" name="type-housing" value="Hotel" checked>
 
-                    Гостиница
-                  </label>
-                </li>
-                <li class="catalog-filter-item">
-                  <label class="control">
-                    <input class="control-input" type="radio" name="type-housing" value="Motel">
+                      Гостиница
+                    </label>
+                  </li>
+                  <li class="catalog-filter-item">
+                    <label class="control">
+                      <input class="control-input" type="radio" name="type-housing" value="Motel">
 
-                    Мотель
-                  </label>
-                </li>
-                <li class="catalog-filter-item filter-item-last">
-                  <label class="control">
-                    <input class="control-input" type="radio" name="type-housing" value="Appartement">
+                      Мотель
+                    </label>
+                  </li>
+                  <li class="catalog-filter-item filter-item-last">
+                    <label class="control">
+                      <input class="control-input" type="radio" name="type-housing" value="Appartement">
 
-                    Апартаменты
-                  </label>
-                </li>
-              </ul>
-            </fieldset>
+                      Апартаменты
+                    </label>
+                  </li>
+                </ul>
+              </fieldset>
 
-            <fieldset class="catalog-filter-price">
-              <label class="filter-price-title">
-                Стоимость,&#8381;
-                <!--знак Рубля-->
-              </label>
-            </fieldset>
-            <div class="filter-buttons">
-              <button class="catalog-filter-button button" type="submit">Применить</button>
-              <button class="button-reset" type="reset" value="Сбросить">Сбросить</button>
             </div>
+
+            <div class="right-catalog-filter">
+
+              <fieldset class="catalog-filter-price">
+                <label class="filter-price-title">
+                  Стоимость,&#8381;
+                  <!--знак Рубля-->
+                </label>
+              </fieldset>
+              <div class="filter-buttons">
+                <button class="catalog-filter-button button" type="submit">Применить</button>
+                <button class="button-reset" type="reset" value="Сбросить">Сбросить</button>
+              </div>
+            </div>
+          </form>
       </div>
-      </form>
       </section>
 
       <!--Каталог гостиниц-->
@@ -168,12 +174,6 @@
             </form>
             <img class="hotel-card-stars" src="images/catalog/hotel-cards/Stars-Rating.svg"
               alt="класс отеля четыре звезды" width="18" height="17">
-            <img class="hotel-card-stars" src="images/catalog/hotel-cards/Stars-Rating.svg" alt=" " width="18"
-              height="17">
-            <img class="hotel-card-stars" src="images/catalog/hotel-cards/Stars-Rating.svg" alt=" " width="18"
-              height="17">
-            <img class="hotel-card-stars" src="images/catalog/hotel-cards/Stars-Rating.svg" alt=" " width="18"
-              height="17">
             <b class="hotel-card-rate">Рейтинг:8.5</b>
           </li>
           <li class="hotel-card">
@@ -190,12 +190,6 @@
             </form>
             <img class="hotel-card-stars" src="images/catalog/hotel-cards/Stars-Rating.svg "
               alt="класс отеля четыре звезды" width="18" height="17">
-            <img class="hotel-card-stars" src="images/catalog/hotel-cards/Stars-Rating.svg" alt=" " width="18"
-              height="17">
-            <img class="hotel-card-stars" src="images/catalog/hotel-cards/Stars-Rating.svg" alt=" " width="18"
-              height="17">
-            <img class="hotel-card-stars" src="images/catalog/hotel-cards/Stars-Rating.svg" alt=" " width="18"
-              height="17">
             <b class="hotel-card-rate">Рейтинг:9.2</b>
           </li>
           <li class="hotel-card">
@@ -212,10 +206,6 @@
             </form>
             <img class="hotel-card-stars" src="images/catalog/hotel-cards/Stars-Rating.svg "
               alt="класс отеля три звезды" width="18" height="17">
-            <img class="hotel-card-stars" src="images/catalog/hotel-cards/Stars-Rating.svg" alt=" " width="18"
-              height="17">
-            <img class="hotel-card-stars" src="images/catalog/hotel-cards/Stars-Rating.svg" alt=" " width="18"
-              height="17">
             <b class="hotel-card-rate">Рейтинг:6.9</b>
           </li>
           <li class="hotel-card">
@@ -232,8 +222,6 @@
             </form>
             <img class="hotel-card-stars" src="images/catalog/hotel-cards/Stars-Rating.svg "
               alt="класс отеля две звезды" width="18" height="17">
-            <img class="hotel-card-stars" src="images/catalog/hotel-cards/Stars-Rating.svg" alt=" " width="18"
-              height="17">
             <b class="hotel-card-rate">Рейтинг:5.0</b>
           </li>
         </ul>
