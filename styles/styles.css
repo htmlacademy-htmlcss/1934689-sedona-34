@@ -59,7 +59,6 @@ form button {
 .navigation-logo {
   display: block;
   z-index: 1;
-  align-self: center;
   width: 140px;
   margin-left: 48px;
 }
@@ -544,7 +543,7 @@ form button {
   color: #000000;
   background-image: url("../images/catalog/filtr-catalog.jpg");
   background-color: #ffffff;
-  background-size: 100% auto;
+  background-size: cover;
   background-repeat: no-repeat;
   margin-bottom: 50px;
 }
@@ -593,7 +592,6 @@ form button {
   font-weight: 400;
   color: #ffffff;
   margin-right: 24px;
-  margin-bottom: 40px;
 }
 
 .filtres-breadcrambs-link {
@@ -611,7 +609,7 @@ form button {
   display: grid;
   grid-template-columns: 150px 150px;
   gap: 70px;
-  margin: 0 176px 70px 70px;
+  margin: 0 176px 0 70px;
 }
 
 .right-catalog-filter {
