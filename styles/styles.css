@@ -59,7 +59,6 @@ form button {
 .navigation-logo {
   display: block;
   z-index: 1;
-  align-self: center;
   width: 140px;
   margin-left: 48px;
 }
@@ -544,7 +543,7 @@ form button {
   color: #000000;
   background-image: url("../images/catalog/filtr-catalog.jpg");
   background-color: #ffffff;
-  background-size: 100% auto;
+  background-size: cover;
   background-repeat: no-repeat;
   margin-bottom: 50px;
 }
@@ -560,24 +559,26 @@ form button {
   font-family: "PT Sans", sans-serif;
   font-style: normal;
   width: 495px;
+  height: 78px;
   margin-left: 70px;
   font-size: 60px;
   font-weight: 700;
+  line-height: 78px;
+  align-items: center;
   color: #ffffff;
   margin: 0;
-  margin-bottom: 10px;
-  padding-top: 36px;
-  padding-left: 70px;
+  padding: 0;
+  padding-top: 35px;
+  margin-left: 70px;
 }
 
 .filtres-breadcrambs {
   display: flex;
   width: 110px;
   margin: 0;
-  margin-left: 72px;
+  margin-left: 70px;
   padding: 0;
   list-style-type: none;
-  margin-top: 10px;
   margin-bottom: 40px;
 }
 
@@ -604,10 +605,21 @@ form button {
   margin: 0;
 }
 
+.left-catalog-filter {
+  display: grid;
+  grid-template-columns: 150px 150px;
+  gap: 70px;
+  margin: 0 176px 0 70px;
+}
+
+.right-catalog-filter {
+  display: grid;
+  grid-template-columns: 288px 160px;
+  gap: 70px;
+  margin-right: 70px;
+}
 .catalog-filter-group {
   padding: 0;
-  margin-right: 70px;
-  margin-left: 70px;
   width: 220px;
   border: none;
 }
@@ -654,20 +666,20 @@ form button {
 }
 
 .catalog-filter-price {
+  padding: 0;
+  margin: 0;
   width: 288px;
-  margin-right: 70px;
+  height: 148px;
 }
 
 .filter-buttons {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0;
-  margin-top: 60px;
 }
+
 .catalog-filter-button {
   display: inline-block;
-  margin-right: 70px;
   width: 162px;
   font-family: "PT Sans", sans-serif;
   font-style: normal;
@@ -687,7 +699,6 @@ form button {
 .button-reset {
   width: 66;
   padding: 0;
-  margin-right: 70px;
   border: 0;
   /*прозрачный фон кнопки для "Сбросить"*/
   background-color: rgba(28, 28, 28, 0);
@@ -724,7 +735,7 @@ form button {
   color: #000000;
   padding: 0 192px 0 72px;
   margin: 0;
-  margin-bottom: 62px;
+  margin-bottom: 66px;
 }
 
 .result-filtres-sort {
@@ -743,25 +754,27 @@ form button {
 /*Карточки отелей*/
 
 .hotel-card-list {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 340px);
   padding: 0;
   margin: 0;
-  list-style-type: none;
+  margin-bottom: 66px;
   margin-left: 72px;
-}
-
-.hotel-card-link {
-  text-decoration: none;
+  gap: 20px;
 }
 
 .hotel-card {
-  width: 300px;
-  height: 438px;
-  margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 140px);
+  gap: 16px;
+}
+.hotel-card-link {
+  grid-column: 1 / -1;
+  text-decoration: none;
 }
 
 .hotel-card-image {
+  object-fit: contain;
   margin-bottom: 16px;
 }
 
@@ -772,31 +785,35 @@ form button {
   line-height: 28px;
   font-weight: 700;
   color: #000000;
-  margin-bottom: 16px;
+  margin: 0;
 }
 
 .hotel-card-type {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
   width: 140px;
-  height: 22px;
   font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   color: #333333;
-  margin-right: 20px;
+  padding: 0;
+  margin: 0;
 }
 
 .hotel-card-price {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
   width: 140px;
   height: 22px;
   font-family: "PT Sans", sans-serif;
   font-style: normal;
   color: #333333;
-  margin-bottom: 16px;
 }
 
 .hotel-card-button-more {
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
   width: 140px;
-  height: 37px;
   font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-size: 16px;
@@ -808,7 +825,12 @@ form button {
   color: #ffffff;
   background: #756157;
   border-radius: 4px;
-  padding: 9px 15px;
+  padding-top: 9px;
+}
+
+.hotel-card-button {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
 }
 
 .button-favorites {
@@ -824,7 +846,6 @@ form button {
   color: #ffffff;
   background-color: #82b3d3;
   border-radius: 4px;
-  padding: 9px 15px;
   margin-right: 20px;
 }
 
@@ -841,11 +862,13 @@ form button {
   color: #ffffff;
   background-color: #7db54f;
   border-radius: 4px;
-  padding: 9px 15px;
+}
+.hotel-card-stars {
+  grid-column: -3 /-2;
 }
 
 .hotel-card-rate {
-  font-size: 16px;
+  grid-column: -2 /-1;
   line-height: 20px;
   font-weight: 400;
   text-align: center;
