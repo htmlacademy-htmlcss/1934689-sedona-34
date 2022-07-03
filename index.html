@@ -230,6 +230,70 @@
       </a>
     </div>
   </footer>
+
+  <div class="modal-container modal-container-close">
+    <div class="modal modal-search">
+      <button class="modal-close-button">
+        <span class="visually-hidden">Закрыть</span>
+      </button>
+      <section class="search-form">
+        <h2 class="modal-title">Поиск гостиницы в седоне</h2>
+        <form class="form-search form-search-show" action="https://echo.htmlacademy.ru" method="post">
+          <p class="search-item">
+            <label class="title-search" for="search-date-arrival">Дата заезда:</label>
+            <input type="text" name="date-arrival" id="search-date-arrival" placeholder="27 апреля 2020">
+          </p>
+          <p class="error-date-arrival">Мы не можем отправить вас в прошлое</p>
+          <p class="search-item">
+            <label class="title-search" for="search-date-departure">Дата выезда:</label>
+            <input type="text" name="date-departure" id="search-date-departure" placeholder="1 сентября 2021">
+          </p>
+          <p class="correct-date-arrival">На эти даты есть свободные номера. Пока есть.</p>
+
+          <div class="quantity-items">
+            <p class="quantity-item">
+              <label class="title-quantity" for="quantity-field-adults">Взрослые:</label>
+            <div class="button-quantity">
+              <button class="minus" type="button" aria-label="Уменьшить количество взрослых"></button>
+
+              <input class="total-quantity total-quantity-adults" type="text" name="quantity-adults"
+                id="quantity-field-adults" placeholder="2">
+              <button class="plus plus-adults" type="button" aria-label="Увеличить количество взрослых"></button>
+            </div>
+            </p>
+            <p class="quantity-item">
+              <span class="title-quantity title-quantity-icon">
+                <label class="title-quantity quantity-children" for="quantity-field-children">Дети:</label>
+                <span class="tooltip">
+                  <button class="tooltip-toggle" type="button" aria-labelledby="tooltip-label">
+                    <svg class="tooltip-icon" width="3" height="12" viewBox="0 0 3 12" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M0.114258 0H2.11426V2H0.114258V0ZM2.11426 12H0.114258V3H2.11426V12Z" fill="currentColor" />
+                    </svg>
+                  </button>
+                  <span class="tooltip-text" role="tooltip" id="tooltip-label">Укажите количество детей, которые будут с
+                    вами, возраст которых
+                    от 6
+                    до 18 лет. Дети до 6 лет размещаются бесплатно.</span>
+                </span>
+              </span>
+            <div class="button-quantity button-quantity-children">
+              <button class="minus" type="button" aria-label="Уменьшить количество детей"></button>
+
+              <input class="total-quantity" type="text" name="quantity-children" id="quantity-field-children"
+                placeholder="1">
+              <button class="plus" type="button" aria-label="Увеличить количество детей"></button>
+            </div>
+            </p>
+
+          </div>
+          <button class="search-button" type="submit">Найти</button>
+        </form>
+      </section>
+    </div>
+  </div>
+
 </body>
 
 </html>
