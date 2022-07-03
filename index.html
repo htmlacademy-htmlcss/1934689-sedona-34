@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <title>HTML Academy: Седона</title>
   <link rel="stylesheet" href="styles/styles.css">
+  <link rel="icon" href="../1934689-sedona-34/images/favico.ico/favicon.ico"> <!-- 32×32 -->
 </head>
 
 <body>
@@ -43,12 +44,13 @@
         </li>
         <li class="navigation-item">
           <a class="navigation-link" href="#">
-            <span class=" visually-hidden">
-              Отзыв
-            </span>
             <span class="link-favorite-amount">
               12
             </span>
+            <span class=" visually-hidden">
+              Нравится
+            </span>
+
           </a>
 
         </li>
@@ -67,7 +69,7 @@
         <!--Главный заголовок-->
         <h1 class="visually-hidden">Город Седона</h1>
 
-        <img class="main-welcome" src="images/main/hero/welcome.svg" alt="Welcome" width="187" height="45">
+        <img class="main-welcome" src="images/main/hero/welcome.svg" alt="Welcome" width="188" height="46">
         <img class="main-to-the-gorgeus" src="images/main/hero/gorgeous.svg" alt="to-the-gorgeus" width="256"
           height="29">
         <img class="main-sedona" src="images/main/hero/sedona.svg" alt="sedona-becouse-the-grand-canyon-sucks!"
@@ -88,14 +90,14 @@
               <p class="adventages-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
             </div>
             <img class="adventages-photo" src="images/main/Adventages-real-town.jpg" title="улицы города Седона"
-              width="800" height="384">
+              width="800" height="386">
           </li>
 
           <!--Особенности-->
           <ul class="adventages-features-list">
             <li class="adventages-features-item">
-              <img class="features-icon" src="images/main/adventages-icon/housing.svg" title="Жилье" width="75"
-                height="72">
+              <img class="features-icon" src="images/main/adventages-icon/housing.svg" title="Жилье" width="76"
+                height="73">
               <h3 class="features-title">Жильё</h3>
               <p class="features-description">Рекомендуем пожить в настоящем мотеле,
                 всё как в кино!</p>
@@ -109,8 +111,8 @@
 
             </li>
             <li class="adventages-features-item">
-              <img class="features-icon" src="images/main/adventages-icon/souvenirs.svg" title="Сувениры" width="75"
-                height="72">
+              <img class="features-icon" src="images/main/adventages-icon/souvenirs.svg" title="Сувениры" width="68s"
+                height="76">
               <h3 class="features-title">Сувениры</h3>
               <p class="features-description">Не только китайского,
                 но и настоящего местного производства!</p>
@@ -121,7 +123,7 @@
           <!--Приемущества-->
           <li class="adventages adventages-background">
             <img class="adventages-photo" src="images/main/Adventages-devil's-bridge.jpg"
-              title="скального образования в виде моста" width="800" height="384">
+              title="скального образования в виде моста" width="800" height="382">
             <div class="adventages-text">
               <h3 class="adventages-title">Там есть
                 мост дьявола</h3>
@@ -182,7 +184,7 @@
         <ul class="footer-social-list">
           <li class="footer-social-item">
             <a class="footer-social-link" href="#">
-              <svg class="footer-social-ico" aria-hidden="true" focusable="false" width="24" height="15" fill="none"
+              <svg class="footer-social-ico" aria-hidden="true" focusable="false" width="22" height="15" fill="none"
                 viewBox="0 0 25 15" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd"
                   d="M23.4 1.4c.2-.5 0-.9-.7-.9H20c-.6 0-1 .3-1.1.7 0 0-1.3 3.2-3.2 5.3-.7.6-1 .8-1.3.8-.1 0-.4-.2-.4-.7V1.4c0-.6-.2-.9-.7-.9H9.2c-.5 0-.7.3-.7.6 0 .6 1 .8 1 2.5v3.8c0 .8-.1 1-.5 1-.9 0-3-3.2-4.3-6.9-.3-.7-.5-1-1.2-1H1c-.8 0-.9.3-.9.7 0 .7.9 4.1 4.1 8.6 2.2 3 5.3 4.7 8 4.7 1.7 0 2-.4 2-1v-2.3c0-.8 0-.9.6-.9.4 0 1 .2 2.6 1.7 1.8 1.7 2.1 2.5 3.1 2.5H23c.8 0 1.2-.4 1-1.1-.3-.7-1.1-1.8-2.3-3L20 8.5c-.4-.5-.3-.7 0-1.1 0 0 3.2-4.4 3.5-6Z"
@@ -241,12 +243,14 @@
         <form class="form-search form-search-show" action="https://echo.htmlacademy.ru" method="post">
           <p class="search-item">
             <label class="title-search" for="search-date-arrival">Дата заезда:</label>
-            <input type="text" name="date-arrival" id="search-date-arrival" placeholder="27 апреля 2020">
+            <input type="text" name="date-arrival" id="search-date-arrival" placeholder="Укажите дату"
+              value="1 сентября 2022">
           </p>
           <p class="error-date-arrival">Мы не можем отправить вас в прошлое</p>
           <p class="search-item">
             <label class="title-search" for="search-date-departure">Дата выезда:</label>
-            <input type="text" name="date-departure" id="search-date-departure" placeholder="1 сентября 2021">
+            <input type="text" name="date-departure" id="search-date-departure" placeholder="Укажите дату"
+              value="1 сентября 2022">
           </p>
           <p class="correct-date-arrival">На эти даты есть свободные номера. Пока есть.</p>
 

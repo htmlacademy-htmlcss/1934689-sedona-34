@@ -60,7 +60,7 @@ form button {
   display: block;
   z-index: 1;
   width: 140px;
-  margin-left: 48px;
+  margin-left: 70px;
 }
 
 /*Навигация */
@@ -83,16 +83,16 @@ form button {
   align-items: center;
   width: 600px;
   margin: 0;
+  margin-left: 36px;
   padding: 0;
   list-style-type: none;
 }
 .navigation-user {
   justify-content: right;
-  margin-right: 70px;
+  margin-right: 58px;
 }
 
 .navigation-user .navigation-link {
-  position: relative;
   max-width: 18px;
   max-height: 18px;
 }
@@ -114,7 +114,7 @@ form button {
   background-image: url("../images/header/search.svg");
   background-repeat: no-repeat;
   background-position: center;
-  margin-right: 12px;
+  margin-right: 8px;
 }
 .navigation-user .navigation-item:nth-child(2) .navigation-link {
   display: block;
@@ -122,13 +122,11 @@ form button {
   background-image: url("../images/header/favorite.svg");
   background-repeat: no-repeat;
   background-position: center;
-  margin-right: 32px;
+  margin-right: 25px;
 }
 
 .link-favorite-amount {
   position: absolute;
-  top: 8px;
-  left: 16px;
   background-color: #7db54f;
   border-radius: 50%;
   font-family: "PT Sans", sans-serif;
@@ -137,14 +135,18 @@ form button {
   font-size: 10px;
   line-height: 13px;
   text-align: center;
+  left: 21px;
   color: #ffffff;
-  padding: 1px 2px;
+  padding: 3px 5px;
+  letter-spacing: -0.1em;
+  margin-top: -19px;
 }
 
 .navigation-link {
   position: relative;
   display: block;
   padding: 19px 12px;
+  padding-right: 22px;
   font-family: "PT Sans", sans-serif;
   font-size: 20px;
   line-height: 26px;
@@ -160,9 +162,9 @@ form button {
   width: 68px;
   left: 10px;
   right: 305px;
-  top: 60px;
+  top: 62px;
   height: 0px;
-  border: 2px solid #756257;
+  border: 1px solid #756257;
   background-color: #756257;
   content: "";
 }
@@ -211,6 +213,7 @@ form button {
   text-decoration: none;
   border-radius: 4px;
   text-transform: uppercase;
+  margin-right: 11px;
 }
 
 .button:hover {
@@ -266,7 +269,7 @@ form button {
   height: 57px;
   background-image: url("../images/main/hero/mask-for-hero.svg");
   bottom: 0;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   content: "";
 }
@@ -275,13 +278,13 @@ form button {
   display: block;
   margin: 0 auto;
   padding-top: 52px;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
 }
 
 .main-to-the-gorgeus {
   display: block;
   margin: 0 auto;
-  margin-bottom: 54px;
+  margin-bottom: 53px;
 }
 
 .main-sedona {
@@ -312,7 +315,7 @@ form button {
   font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-size: 22px;
-  line-height: 26px;
+  line-height: 23px;
   font-weight: 400;
   text-align: center;
   color: #333333;
@@ -341,7 +344,7 @@ form button {
 }
 
 .adventages-text {
-  padding: 90px 85px;
+  padding: 89px 85px;
 }
 
 .adventages-title {
@@ -349,13 +352,14 @@ form button {
   font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-size: 24px;
-  line-height: 28px;
+  line-height: 30px;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
   margin: 0;
-  padding-bottom: 30px;
+  padding-top: 4px;
+  padding-bottom: 27px;
 }
 
 .adventages-symbol {
@@ -375,7 +379,7 @@ form button {
   color: #ffffff;
   width: 230px;
   margin: 0;
-  padding-top: 30px;
+  padding-top: 27px;
 }
 
 /*Особенности */
@@ -403,7 +407,7 @@ form button {
 }
 
 .features-icon {
-  padding-bottom: 30px;
+  padding-bottom: 24px;
 }
 
 .features-title {
@@ -418,13 +422,14 @@ form button {
   text-align: center;
   text-transform: uppercase;
   color: #000000;
-  padding-bottom: 30px;
+  padding-bottom: 28px;
 }
 
 .features-description {
   font-family: "PT Sans", sans-serif;
   font-style: normal;
   width: 230px;
+  height: 63px;
   font-weight: 400;
   text-align: center;
   color: #333333;
@@ -490,13 +495,13 @@ form button {
   text-align: center;
   color: #333333;
   margin: 0;
-  padding-top: 30px;
+  padding-top: 28px;
 }
 
 /*Поиск гостиницы*/
 .Search-hotel {
   width: 1200px;
-  height: 418px;
+  height: 414px;
 }
 
 .Search-hotel-title {
@@ -509,8 +514,8 @@ form button {
   text-transform: uppercase;
   color: #000000;
   margin: 0;
-  padding-top: 90px;
-  padding-bottom: 30px;
+  padding-top: 87px;
+  padding-bottom: 28px;
 }
 
 .Search-hotel-description {
@@ -542,7 +547,7 @@ form button {
   background: #756157;
   border-radius: 4px;
   border: none;
-  margin-bottom: 92px;
+  margin-bottom: 90px;
   cursor: pointer;
 }
 
@@ -572,7 +577,7 @@ form button {
   text-transform: uppercase;
   color: #ffffff;
   padding-top: 94px;
-  padding-bottom: 30px;
+  padding-bottom: 28px;
   margin: 0;
 }
 
@@ -610,7 +615,7 @@ form button {
   padding: 20px 20px 19px;
   border: none;
   background: #f2f2f2;
-  margin-right: -190px;
+  margin-right: -47px;
   outline: none;
 }
 
@@ -629,6 +634,7 @@ form button {
   border-radius: 0px 10px 10px 0px;
   border: none;
   cursor: pointer;
+  padding: 0;
 }
 
 .subscription-button:hover {
@@ -657,15 +663,14 @@ form button {
 
 .footer-container {
   display: flex;
-  width: 1200px;
+  width: 1209px;
   margin: 0 auto;
 }
 
 .footer-social {
-  max-width: 180px;
-  margin: 0;
-  padding-top: 58px;
-  padding-left: 70px;
+  width: 198px;
+  padding-top: 55px;
+  padding-left: 88px;
   padding-bottom: 48px;
 }
 
@@ -683,8 +688,8 @@ form button {
   text-transform: uppercase;
   color: #000000;
   text-decoration: none;
-  width: 332px;
-  padding-top: 45px;
+  width: 331px;
+  padding-top: 44px;
   padding-bottom: 35px;
 }
 .footer-contacts-phone:hover {
@@ -704,9 +709,9 @@ form button {
   width: 115px;
   height: 34px;
   margin-left: auto;
-  padding-top: 50px;
+  padding-top: 48px;
   padding-bottom: 38px;
-  padding-right: 70px;
+  padding-right: 75px;
   color: #000000;
 }
 
@@ -733,9 +738,9 @@ form button {
 
 /* Открытие и закрытие модального окна*/
 
-/* .modal-container-close {
+.modal-container-close {
   display: none;
-} */
+}
 
 .modal {
   position: relative;
@@ -807,7 +812,7 @@ form button {
 }
 
 .title-search {
-  width: 114px;
+  width: 130px;
   padding-right: 20px;
   align-self: center;
   font-family: "PT Sans", sans-serif;
@@ -823,7 +828,8 @@ form button {
   display: block;
   width: 420px;
   height: 50px;
-  padding-left: 20px;
+  padding-left: 19px;
+  padding-right: 42px;
   font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -835,18 +841,25 @@ form button {
   background: #f2f2f2;
   background-image: url("../images/modal/modal-calendar.svg");
   background-repeat: no-repeat;
-  background-position: center right 22px;
+  background-position: center right 19px;
+  border: 3px solid transparent;
   border-radius: 4px;
 }
 
 .search-item input:hover {
-  background-color: #ebebeb;
+  background-color: #e6e6e6;
 }
 
 .search-item input:focus {
-  background-color: transparent;
-  border: 1px solid #e5e5e5;
+  border-color: #83b3d3;
+  outline: none;
 }
+
+.search-item input:focus:not(:placeholder-shown) {
+  border-color: #000000;
+}
+
+/* Скрыты по умолчанию ошибка и корректный водд */
 
 .error-date-arrival {
   width: 400px;
@@ -860,6 +873,7 @@ form button {
   display: flex;
   align-items: flex-end;
   color: #ff5757;
+  visibility: hidden;
 }
 
 .correct-date-arrival {
@@ -873,6 +887,7 @@ form button {
   line-height: 21px;
   align-items: flex-end;
   color: #333333;
+  visibility: hidden;
 }
 
 .quantity-items {
@@ -1017,16 +1032,18 @@ form button {
   border: 3px solid transparent;
   border-radius: 4px;
   cursor: pointer;
+  opacity: 0.3;
 }
-.button-quantity button:hover::before {
+.button-quantity button:hover {
   opacity: 1;
 }
-.button-quantity button:focus::before {
-  border-color: #b822a2;
+.button-quantity button:focus {
+  border-color: #83b3d3;
   outline: none;
 }
-.button-quantity button:active::before {
-  opacity: 0.6;
+.button-quantity button:active {
+  border-color: transparent;
+  opacity: 0.2;
 }
 
 .button-quantity input {
@@ -1580,6 +1597,8 @@ form button {
   font-weight: 400;
   text-align: center;
   color: #ffffff;
+  border: 3px solid transparent;
+  border-radius: 4px;
   cursor: pointer;
 }
 
@@ -1590,12 +1609,11 @@ form button {
 
 .button-reset:focus {
   color: #ffffff;
-  border: 3px solid #83b3d3;
-  border-radius: 4px;
 }
 
 .button-reset:active {
   color: #ffffff;
+  border-color: #83b3d3;
   opacity: 0.3;
 }
 
@@ -2098,9 +2116,9 @@ form button {
 /*Подвал*/
 
 .footer-social-item {
-  width: 24px;
+  width: 22px;
   height: 16px;
-  margin-right: 26px;
+  margin-right: 23px;
 }
 .footer-social-ico {
   color: #83b3d3;
