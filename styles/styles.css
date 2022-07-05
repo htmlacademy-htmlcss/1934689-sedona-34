@@ -38,7 +38,7 @@ body {
   font-size: 18px;
   line-height: 22px;
   color: #333333;
-  background-color: #ffffff;
+  background: #ffffff;
 }
 h1 {
   margin: 0;
@@ -73,6 +73,7 @@ form button {
   z-index: 1;
   width: 140px;
   margin-left: 70px;
+  margin-bottom: -10px;
 }
 
 /*Навигация */
@@ -275,6 +276,8 @@ form button {
 .page-container {
   width: 1200px;
   margin: 0 auto;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
 }
 
 /* Промо */
@@ -288,7 +291,6 @@ form button {
   background-color: #ffffff;
   background-size: 100% auto;
   background-repeat: no-repeat;
-  margin-bottom: 64px;
 }
 .index-background::after {
   position: absolute;
@@ -335,6 +337,7 @@ form button {
   text-transform: uppercase;
   color: #000000;
   margin: 0;
+  padding-top: 63px;
   padding-bottom: 32px;
 }
 
@@ -649,21 +652,22 @@ form button {
 }
 
 .subscription-email {
-  width: 600px;
+  outline: none;
+  border: none;
+  width: 556px;
   height: 21px;
   font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
-  color: #000000;
-  background: #f2f2f2;
+  padding: 18px 20px 18px;
+  margin-right: -5px;
   border-radius: 10px 0px 0px 10px;
-  padding: 20px 20px 19px;
-  border: none;
-  background: #f2f2f2;
-  margin-right: -47px;
-  outline: none;
+}
+
+.subscription-form input:focus {
+  box-shadow: 0px 0px 0px 2px #81b3d2;
 }
 
 .subscription-button {
@@ -1616,8 +1620,8 @@ form button {
   z-index: 1;
 }
 
-.input-left:active,
-.input-right:active {
+.input-left:active:not(:placeholder-shown),
+.input-right:active:not(:placeholder-shown) {
   background: #756257;
 }
 
@@ -2291,23 +2295,23 @@ form button {
 }
 
 .inner-subscription-email {
-  width: 742px;
-  height: 20px;
+  outline: none;
+  border: none;
+  width: 556px;
+  height: 21px;
   font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
-  color: #000000;
-  background: #f2f2f2;
+  padding: 18px 20px 18px;
+  margin-right: -5px;
   border-radius: 10px 0px 0px 10px;
-  padding: 20px 20px 20px;
-  border: none;
-  background: #f2f2f2;
-  margin-right: -190px;
-  outline: none;
 }
 
+.inner-subscription-form input:focus {
+  box-shadow: 0px 0px 0px 2px #81b3d2;
+}
 /*Подвал*/
 
 .footer-social-item {
