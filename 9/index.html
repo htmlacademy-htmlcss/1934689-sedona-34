@@ -9,6 +9,7 @@
   <base href="https://htmlacademy-htmlcss.github.io/1934689-sedona-34/9/">
 </head>
 
+
 <body>
 
   <!--Шапка-->
@@ -54,7 +55,7 @@
           </a>
         </li>
         <li>
-          <a class="button button-navigation" href="#">Хочу сюда!</a>
+          <button class="button button-navigation">Хочу сюда!</button>
         </li>
       </ul>
     </nav>
@@ -65,7 +66,7 @@
 
       <!--Херо-->
 
-      <div class="index-background" width="1200" height="485">
+      <div class="index-background">
 
         <!--Главный заголовок-->
 
@@ -96,32 +97,33 @@
           </li>
 
           <!--Особенности-->
-
-          <ul class="adventages-features-list">
-            <li class="adventages-features-item">
-              <img class="features-icon" src="images/main/adventages-icon/housing.svg" title="Жилье" width="76"
-                height="73">
-              <h3 class="features-title">Жильё</h3>
-              <p class="features-description">Рекомендуем пожить в настоящем мотеле,
-                всё как в кино!
-              </p>
-            </li>
-            <li class="adventages-features-item">
-              <img class="features-icon" src="images/main/adventages-icon/food.svg" title="Еда" width="74" height="70">
-              <h3 class="features-title">Еда</h3>
-              <p class="features-description">Всегда заказывайте
-                топовый фирменный бургер, вы не разочаруетесь!</p>
-
-            </li>
-            <li class="adventages-features-item">
-              <img class="features-icon" src="images/main/adventages-icon/souvenirs.svg" title="Сувениры" width="68s"
-                height="76">
-              <h3 class="features-title">Сувениры</h3>
-              <p class="features-description">Не только китайского,
-                но и настоящего местного производства!
-              </p>
-            </li>
-          </ul>
+          <li>
+            <ul class="adventages-features-list">
+              <li class="adventages-features-item">
+                <img class="features-icon" src="images/main/adventages-icon/housing.svg" title="Жилье" width="76"
+                  height="73">
+                <h3 class="features-title">Жильё</h3>
+                <p class="features-description">Рекомендуем пожить в настоящем мотеле,
+                  всё как в кино!
+                </p>
+              </li>
+              <li class="adventages-features-item">
+                <img class="features-icon" src="images/main/adventages-icon/food.svg" title="Еда" width="74"
+                  height="70">
+                <h3 class="features-title">Еда</h3>
+                <p class="features-description">Всегда заказывайте
+                  топовый фирменный бургер, вы не разочаруетесь!</p>
+              </li>
+              <li class="adventages-features-item">
+                <img class="features-icon" src="images/main/adventages-icon/souvenirs.svg" title="Сувениры" width="68"
+                  height="76">
+                <h3 class="features-title">Сувениры</h3>
+                <p class="features-description">Не только китайского,
+                  но и настоящего местного производства!
+                </p>
+              </li>
+            </ul>
+          </li>
 
           <!--Приемущества-->
 
@@ -135,26 +137,26 @@
               <p class=" adventages-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
             </div>
           </li>
-          <div class="adventages-black">
-            <li class="adventages adventages-item">
-              <h3 class="adventages-title-black">Небольшая
-                площадь</h3>
-              <span class=" adventages-symbol-black">— №3 —</span>
-              <p class="adventages-description-black">Все достопримечательности находятся очень близко</p>
-            </li>
-            <li class="adventages adventages-item">
-              <h3 class="adventages-title-black">Красивая<br>
-                дорога</h3>
-              <span class="adventages-symbol-black">— №4 —</span>
-              <p class="adventages-description-black">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
-            </li>
-            <li class="adventages adventages-item">
-              <h3 class="adventages-title-black">Мало<br>
-                туристов</h3>
-              <span class="adventages-symbol-black">— №5 —</span>
-              <p class="adventages-description-black">Большинство едет в Гранд Каньон и толпится там</p>
-            </li>
-          </div>
+
+
+          <li class="adventages adventages-item adventages-item--small">
+            <h3 class="adventages-title-black">Небольшая
+              площадь</h3>
+            <span class=" adventages-symbol-black">— №3 —</span>
+            <p class="adventages-description-black">Все достопримечательности находятся очень близко</p>
+          </li>
+          <li class="adventages adventages-item adventages-item--small">
+            <h3 class="adventages-title-black">Красивая<br>
+              дорога</h3>
+            <span class="adventages-symbol-black">— №4 —</span>
+            <p class="adventages-description-black">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+          </li>
+          <li class="adventages adventages-item adventages-item--small">
+            <h3 class="adventages-title-black">Мало<br>
+              туристов</h3>
+            <span class="adventages-symbol-black">— №5 —</span>
+            <p class="adventages-description-black">Большинство едет в Гранд Каньон и толпится там</p>
+          </li>
         </ol>
       </section>
 
@@ -169,7 +171,7 @@
 
       <!--Подписка-->
 
-      <section class="subscription" width="1200" height="411">
+      <section class="subscription">
         <h2 class="subscription-title">Подпишитесь на рассылку</h2>
         <p class="subscription-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="subscription-form" action="https://echo.htmlacademy.ru/" method="post">
@@ -190,7 +192,7 @@
       <div class="footer-social">
         <ul class="footer-social-list">
           <li class="footer-social-item">
-            <a class="footer-social-link" href="#">
+            <a class="footer-social-link" href="https://vk.com/htmlacademy">
               <svg class="footer-social-ico" aria-hidden="true" focusable="false" width="22" height="15" fill="none"
                 viewBox="0 0 25 15" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd"
@@ -201,7 +203,7 @@
             </a>
           </li>
           <li class="footer-social-item">
-            <a class="footer-social-link" href="#">
+            <a class="footer-social-link" href="https://t.me/htmlacademy">
               <svg class="footer-social-ico" aria-hidden="true" focusable="false" width="18" height="16" fill="none"
                 viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
                 <path
@@ -212,7 +214,7 @@
             </a>
           </li>
           <li class="footer-social-item">
-            <a class="footer-social-link" href="#">
+            <a class="footer-social-link" href="https://youtube.com/user/htmlacademyru">
               <svg class="footer-social-ico" aria-hidden="true" focusable="false" width="22" height="17" fill="none"
                 viewBox="0 0 22 17" xmlns="http://www.w3.org/2000/svg">
                 <path
@@ -229,9 +231,8 @@
         <a class="footer-contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
       </div>
       <a class="footer-logo" href="https://htmlacademy.ru/">
-        <svg class="footer-logo-ico" aria-hidden="true" focusable="false" title="логотоип htmlacademy"
-          alt="логотип html academy" width="115" height="33" viewBox="0 0 115 33" fill="none"
-          xmlns="http://www.w3.org/2000/svg">
+        <svg class="footer-logo-ico" aria-hidden="true" focusable="false" width="115" height="33" viewBox="0 0 115 33"
+          fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
             d="M0 12.9v2.6h2.5v-2.6H0ZM11.6 4.5c-1.6 0-2.8.7-3.6 1.7h-.1V0h-2v15.5h2v-5.3c0-2.1 1.3-3.6 3.3-3.6 1.8 0 2.9 1.4 2.9 3.2v5.7h2V9.4c.1-3-1.8-4.9-4.5-4.9ZM26.6 4.8h-4.8V1.1h-2v3.8h-1.9v2h1.9v6c0 1.7 1 2.7 2.7 2.7h4.1v-2h-3.7c-.7 0-1.1-.4-1.1-1.1V6.8h4.8v-2ZM41.1 4.6c-1.6 0-2.9.8-3.5 2.1h-.1c-.6-1.2-1.8-2.1-3.4-2.1-1.4 0-2.5.8-3.1 1.8h-.1V4.8H29v10.6h2V10c0-2 1-3.5 2.6-3.5 1.5 0 2.4 1 2.4 2.6v6.3h2V9.8c0-2.4 1.4-3.3 2.6-3.3 1.5 0 2.4 1 2.4 2.6v6.3h2V8.9c.1-2.5-1.4-4.3-3.9-4.3ZM47.8 12.7c0 1.7 1 2.7 2.8 2.7h2v-2h-1.7c-.7 0-1.1-.4-1.1-1.1V0h-2v12.7ZM28.9 19.7c-.9-1.1-2.2-1.8-3.9-1.8-3.1 0-5.4 2.3-5.4 5.6s2.3 5.6 5.4 5.6c1.8 0 3-.8 3.8-1.9h.1v1.6h2V18.2h-2v1.5Zm-3.6 7.4c-2.2 0-3.6-1.6-3.6-3.6s1.4-3.6 3.6-3.6 3.6 1.6 3.6 3.6c0 1.9-1.4 3.6-3.6 3.6ZM44.2 22c-.5-2.4-2.6-4.1-5.4-4.1a5.4 5.4 0 0 0-5.6 5.6c0 3.1 2.2 5.6 5.6 5.6 2.8 0 4.9-1.8 5.4-4.2h-2.1a3.4 3.4 0 0 1-3.3 2.3c-2.2 0-3.6-1.6-3.6-3.6s1.4-3.6 3.6-3.6c1.6 0 2.8 1 3.3 2.2h2.1V22ZM55.1 19.7c-.9-1.1-2.2-1.8-3.9-1.8-3.1 0-5.4 2.3-5.4 5.6s2.3 5.6 5.4 5.6c1.8 0 3-.8 3.8-1.9h.1v1.6h2V18.2h-2v1.5Zm-3.6 7.4c-2.2 0-3.6-1.6-3.6-3.6s1.4-3.6 3.6-3.6 3.6 1.6 3.6 3.6c0 1.9-1.5 3.6-3.6 3.6ZM68.7 19.8c-.9-1.1-2.2-1.9-3.9-1.9-3.1 0-5.4 2.3-5.4 5.6s2.2 5.6 5.4 5.6c1.7 0 3-.8 3.8-1.8h.1v1.5h2V13.4h-2v6.4Zm-3.6 7.3c-2.2 0-3.6-1.6-3.6-3.6s1.4-3.6 3.6-3.6 3.6 1.6 3.6 3.6c-.1 2-1.5 3.6-3.6 3.6ZM78.3 17.9c-3.3 0-5.5 2.5-5.5 5.6 0 3 2.1 5.6 5.5 5.6 2.5 0 4.5-1.3 5.2-3.6h-2.1c-.5 1-1.6 1.6-3 1.6-1.9 0-3.3-1.3-3.4-2.9h8.8c.2-3.6-2-6.3-5.5-6.3Zm0 1.9c1.7 0 3 1 3.3 2.6h-6.5c.3-1.5 1.5-2.6 3.2-2.6ZM98.2 17.9c-1.6 0-2.9.8-3.6 2h-.1c-.6-1.2-1.8-2-3.4-2-1.4 0-2.5.7-3.1 1.8v-1.5h-1.9v10.6h2v-5.4c0-2 1-3.4 2.6-3.5 1.5 0 2.4 1 2.4 2.6v6.3h2v-5.6c0-2.4 1.4-3.3 2.6-3.3 1.5 0 2.4 1 2.4 2.6v6.3h2v-6.5c.1-2.6-1.4-4.4-3.9-4.4ZM109.4 27l-3.6-8.9h-2.2l4.8 11.6c-.3.9-.7 1.2-1.7 1.2h-2.5v2h2.5c1.8 0 2.8-.8 3.5-2.6l4.7-12.2h-2.1l-3.4 8.9Z"
             fill="currentColor" />
@@ -264,17 +265,17 @@
           <p class="correct-date-arrival">На эти даты есть свободные номера. Пока есть.</p>
 
           <div class="quantity-items">
-            <p class="quantity-item">
+            <div class="quantity-item">
               <label class="title-quantity" for="quantity-field-adults">Взрослые:</label>
-            <div class="button-quantity">
-              <button class="minus" type="button" aria-label="Уменьшить количество взрослых"></button>
+              <div class="button-quantity">
+                <button class="minus" type="button" aria-label="Уменьшить количество взрослых"></button>
 
-              <input class="total-quantity total-quantity-adults" type="text" name="quantity-adults"
-                id="quantity-field-adults" placeholder="2">
-              <button class="plus plus-adults" type="button" aria-label="Увеличить количество взрослых"></button>
+                <input class="total-quantity total-quantity-adults" type="text" name="quantity-adults"
+                  id="quantity-field-adults" placeholder="2">
+                <button class="plus plus-adults" type="button" aria-label="Увеличить количество взрослых"></button>
+              </div>
             </div>
-            </p>
-            <p class="quantity-item">
+            <div class="quantity-item">
               <span class="title-quantity title-quantity-icon">
                 <label class="title-quantity quantity-children" for="quantity-field-children">Дети:</label>
                 <span class="tooltip">
@@ -285,27 +286,29 @@
                         d="M0.114258 0H2.11426V2H0.114258V0ZM2.11426 12H0.114258V3H2.11426V12Z" fill="currentColor" />
                     </svg>
                   </button>
-                  <span class="tooltip-text" role="tooltip" id="tooltip-label">Укажите количество детей, которые будут с
+                  <span class="tooltip-text" role="tooltip" id="tooltip-label">Укажите количество детей, которые будут
+                    с
                     вами, возраст которых
                     от 6
                     до 18 лет. Дети до 6 лет размещаются бесплатно.</span>
                 </span>
               </span>
-            <div class="button-quantity button-quantity-children">
-              <button class="minus" type="button" aria-label="Уменьшить количество детей"></button>
+              <div class="button-quantity button-quantity-children">
+                <button class="minus" type="button" aria-label="Уменьшить количество детей"></button>
 
-              <input class="total-quantity" type="text" name="quantity-children" id="quantity-field-children"
-                placeholder="1">
-              <button class="plus" type="button" aria-label="Увеличить количество детей"></button>
+                <input class="total-quantity" type="text" name="quantity-children" id="quantity-field-children"
+                  placeholder="1">
+                <button class="plus" type="button" aria-label="Увеличить количество детей"></button>
+              </div>
             </div>
-
+            <button class="search-button" type="submit">Найти</button>
           </div>
-          <button class="search-button" type="submit">Найти</button>
         </form>
       </section>
     </div>
   </div>
 
 </body>
+
 
 </html>
