@@ -1297,21 +1297,14 @@ form button {
 .filtres-breadcrambs-item {
   position: relative;
   width: 110px;
-  font-family: "PT Sans", sans-serif;
-  font-style: normal;
-  font-size: 16px;
-  line-height: 22px;
-  font-weight: 400;
-  color: #ffffff;
+  margin-right: 15px;
 }
+
 .filtres-breadcrambs-item::after {
   position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 22px;
-  margin: auto;
-  width: 5px;
+  top: 8px;
+  right: -20px;
+  width: 8px;
   height: 8px;
   color: inherit;
   background-image: url("../images/catalog/catalog-arrow/arrow-breadcrambs.svg");
@@ -1319,8 +1312,11 @@ form button {
   content: "";
 }
 
+.filtres-breadcrambs-item:last-child::after {
+  content: none;
+}
+
 .Home-ico {
-  padding-right: 10px;
   cursor: pointer;
 }
 
