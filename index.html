@@ -5,7 +5,8 @@
   <meta charset="utf-8">
   <title>HTML Academy: Седона</title>
   <link rel="stylesheet" href="styles/styles.css">
-  <link rel="icon" href="../1934689-sedona-34/images/favico.ico/favicon.ico"> <!-- 32×32 -->
+  <link rel="icon" href="favicon.ico"> <!-- 32×32 -->
+  <link rel="icon" type="image/png" href="./images/favicon-32x32.png">
 </head>
 
 
@@ -23,7 +24,7 @@
             </span>
 
             <!--Лого-->
-            <img class="header-logo" src="images/header/logo.svg" title="Логотип-город-седона" width="139" height="70">
+            <img class="header-logo" src="images/header/logo.svg" title="Логотип-город-седона." width="139" height="70">
           </a>
         </div>
         <ul class="navigation-list">
@@ -38,12 +39,12 @@
           </li>
         </ul>
         <ul class="navigation-list navigation-user">
-          <li class="navigation-item">
+          <li class="navigation-item navigation-user-serch">
             <a class="navigation-link" href="#">
               <span class=" visually-hidden">Поиск</span>
             </a>
           </li>
-          <li class="navigation-item">
+          <li class="navigation-item navigation-user-favorite">
             <a class="navigation-link" href="#">
               <span class="link-favorite-amount">
                 12
@@ -91,15 +92,15 @@
               <span class="adventages-symbol">— №1 —</span>
               <p class="adventages-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
             </div>
-            <img class="adventages-photo" src="images/main/Adventages-real-town.jpg" title="улицы города Седона"
-              width="800" height="386">
+            <img class="adventages-photo" src="images/main/adventages-real-town.jpg" title="улицы города Седона."
+              width="800" height="384">
           </li>
 
           <!--Особенности-->
           <li>
             <ul class="adventages-features-list">
               <li class="adventages-features-item">
-                <img class="features-icon" src="images/main/adventages-icon/housing.svg" title="Жилье" width="76"
+                <img class="features-icon" src="images/main/adventages-icon/housing.svg" title="Жилье." width="76"
                   height="73">
                 <h3 class="features-title">Жильё</h3>
                 <p class="features-description">Рекомендуем пожить в настоящем мотеле,
@@ -107,14 +108,14 @@
                 </p>
               </li>
               <li class="adventages-features-item">
-                <img class="features-icon" src="images/main/adventages-icon/food.svg" title="Еда" width="74"
+                <img class="features-icon" src="images/main/adventages-icon/food.svg" title="Еда." width="74"
                   height="70">
                 <h3 class="features-title">Еда</h3>
                 <p class="features-description">Всегда заказывайте
                   топовый фирменный бургер, вы не разочаруетесь!</p>
               </li>
               <li class="adventages-features-item">
-                <img class="features-icon" src="images/main/adventages-icon/souvenirs.svg" title="Сувениры" width="68"
+                <img class="features-icon" src="images/main/adventages-icon/souvenirs.svg" title="Сувениры." width="68"
                   height="76">
                 <h3 class="features-title">Сувениры</h3>
                 <p class="features-description">Не только китайского,
@@ -127,8 +128,8 @@
           <!--Приемущества-->
 
           <li class="adventages adventages-background">
-            <img class="adventages-photo" src="images/main/Adventages-devil's-bridge.jpg"
-              title="скального образования в виде моста" width="800" height="384">
+            <img class="adventages-photo" src="images/main/adventages-devil's-bridge.jpg"
+              title="скального образования в виде моста." width="800" height="384">
             <div class="adventages-text">
               <h3 class="adventages-title">Там есть
                 мост дьявола</h3>
@@ -161,10 +162,10 @@
 
       <!--Поиск гостиницы-->
 
-      <section class="Search-hotel">
-        <h2 class="Search-hotel-title">Заинтересовались?</h2>
-        <p class="Search-hotel-description">Укажите предполагаемые даты поездки,<br>
-          и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+      <section class="search-hotel">
+        <h2 class="search-hotel-title">Заинтересовались?</h2>
+        <p class="search-hotel-description">Укажите предполагаемые даты поездки, <br>и мы покажем вам лучшие предложения
+          гостиниц в Седоне</p>
         <button class="button-hotel-search button">поиск гостиницы в седоне</button>
       </section>
 
@@ -254,13 +255,13 @@
           <p class="search-item">
             <label class="title-search" for="search-date-arrival">Дата заезда:</label>
             <input type="text" name="date-arrival" id="search-date-arrival" placeholder="Укажите дату"
-              value="1 сентября 2022">
+              value="1 сентября 2022" required>
           </p>
           <p class="error-date-arrival">Мы не можем отправить вас в прошлое</p>
           <p class="search-item">
             <label class="title-search" for="search-date-departure">Дата выезда:</label>
             <input type="text" name="date-departure" id="search-date-departure" placeholder="Укажите дату"
-              value="1 сентября 2022">
+              value="1 сентября 2022" required>
           </p>
           <p class="correct-date-arrival">На эти даты есть свободные номера. Пока есть.</p>
 

@@ -135,7 +135,7 @@ form button {
   margin-right: auto;
 }
 
-.navigation-user .navigation-item:nth-child(1) .navigation-link {
+.navigation-user-serch .navigation-link {
   display: block;
   background-image: url("../images/header/search.svg");
   background-repeat: no-repeat;
@@ -143,7 +143,7 @@ form button {
   margin-right: 8px;
 }
 
-.navigation-user .navigation-item:nth-child(2) .navigation-link {
+.navigation-user-favorite .navigation-link {
   display: block;
   position: relative;
   background-image: url("../images/header/favorite.svg");
@@ -291,7 +291,7 @@ form button {
   height: 485px;
   color: #000000;
   background-image: url("../images/main/hero/index-background.jpg");
-  background-color: #ffffff;
+  background-color: #000000;
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
@@ -353,7 +353,7 @@ form button {
   text-align: center;
   color: #333333;
   margin: 0;
-  padding-bottom: 90px;
+  padding-bottom: 93px;
 }
 
 /*Приемущества белый текст на голубом фоне*/
@@ -441,7 +441,7 @@ form button {
 
 .adventages-features-item {
   margin: 0;
-  padding: 80px 85px;
+  padding: 78px 85px;
 }
 
 .adventages-features-item:nth-child(2n) {
@@ -539,12 +539,11 @@ form button {
 
 /*Поиск гостиницы*/
 
-.Search-hotel {
+.search-hotel {
   width: 1200px;
-  height: 414px;
 }
 
-.Search-hotel-title {
+.search-hotel-title {
   font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-size: 30px;
@@ -553,12 +552,14 @@ form button {
   text-align: center;
   text-transform: uppercase;
   color: #000000;
+  background-color: #ffffff;
   margin: 0;
   padding-top: 87px;
   padding-bottom: 28px;
 }
 
-.Search-hotel-description {
+.search-hotel-description {
+  width: 592px;
   font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-size: 22px;
@@ -566,7 +567,7 @@ form button {
   font-weight: 400;
   text-align: center;
   color: #000000;
-  margin: 0;
+  margin: 0 auto;
   padding-bottom: 56px;
 }
 
@@ -589,7 +590,7 @@ form button {
   background: #756157;
   border-radius: 4px;
   border: none;
-  margin-bottom: 90px;
+  margin-bottom: 93px;
   cursor: pointer;
 }
 
@@ -598,14 +599,13 @@ form button {
 .subscription {
   display: block;
   width: 1200px;
-  height: 411px;
   margin: 0 auto;
   color: #000000;
   background-image: url("../images/main/background.jpg");
-  background-color: #ffffff;
-  background-size: 100% auto;
+  background-color: #000000;
+  background-size: cover;
   background-repeat: no-repeat;
-  padding: 0;
+  padding: 70px 0 97px;
   margin: 0;
 }
 
@@ -618,9 +618,7 @@ form button {
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
-  padding-top: 94px;
-  padding-bottom: 28px;
-  margin: 0;
+  margin-bottom: 29px;
 }
 
 .subscription-description {
@@ -633,14 +631,13 @@ form button {
   text-align: center;
   color: #ffffff;
   margin: 0 auto;
-  padding-bottom: 46px;
+  margin-bottom: 44px;
 }
 
 .subscription-form {
   display: block;
   margin: 0 auto;
   text-align: center;
-  padding: 0;
 }
 
 .subscription-email {
@@ -654,7 +651,7 @@ form button {
   font-size: 18px;
   line-height: 21px;
   padding: 18px 20px 18px;
-  margin-right: -5px;
+  margin-right: -4px;
   border-radius: 10px 0px 0px 10px;
 }
 
@@ -672,7 +669,7 @@ form button {
   color: #ffffff;
   text-transform: uppercase;
   width: 200px;
-  height: 60px;
+  height: 58px;
   background-color: #82b3d3;
   border-radius: 0px 10px 10px 0px;
   border: none;
@@ -703,7 +700,48 @@ form button {
   cursor: default;
 }
 
-/*Подвал основной страницы*/
+/*Подвал*/
+
+.footer-social-item {
+  width: 22px;
+  height: 16px;
+  margin-right: 24px;
+}
+.footer-social-ico {
+  color: #83b3d3;
+}
+.footer-social-ico:hover {
+  color: #68a2ca;
+}
+
+.footer-social-ico:focus {
+  color: #68a2ca;
+  outline: none;
+}
+
+.footer-social-ico:active {
+  color: rgba(104, 162, 202, 0.3);
+}
+
+.footer-social-ico:disabled:hover {
+  background: #e5e5e5;
+  outline: none;
+  cursor: default;
+}
+.footer-social-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.footer-social-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
 
 .footer-container {
   display: -webkit-box;
@@ -716,7 +754,7 @@ form button {
 .footer-social {
   width: 198px;
   padding-top: 55px;
-  padding-left: 88px;
+  padding-left: 83px;
   padding-bottom: 48px;
 }
 
@@ -735,7 +773,7 @@ form button {
   color: #000000;
   text-decoration: none;
   width: 331px;
-  padding-top: 44px;
+  padding-top: 46px;
   padding-bottom: 35px;
 }
 .footer-contacts-phone:hover {
@@ -757,7 +795,7 @@ form button {
   margin-left: auto;
   padding-top: 48px;
   padding-bottom: 38px;
-  padding-right: 75px;
+  padding-right: 79px;
   color: #000000;
 }
 
@@ -1243,13 +1281,13 @@ form button {
 .filter-background {
   flex-wrap: wrap;
   width: 1200px;
-  min-height: 403px;
   margin: 0 auto;
   color: #000000;
   background-image: url("../images/catalog/filtres/filtr-catalog.jpg");
-  background-color: #ffffff;
+  background-color: #000000;
   background-size: cover;
   background-repeat: no-repeat;
+  padding: 35px 0 63px;
 }
 
 /*Фильтр каталога*/
@@ -1277,7 +1315,6 @@ form button {
   color: #ffffff;
   margin: 0;
   padding: 0;
-  padding-top: 35px;
   margin-left: 70px;
   margin-bottom: 10px;
 }
@@ -1316,7 +1353,7 @@ form button {
   content: none;
 }
 
-.Home-ico {
+.home-ico {
   cursor: pointer;
 }
 
@@ -1702,9 +1739,8 @@ form button {
   text-transform: uppercase;
   color: #ffffff;
   background-color: #82b3d3;
-  height: 48px;
   border-radius: 4px;
-  padding: 11px 15px;
+  padding: 13px 0 13px;
   margin-top: 60px;
   margin-bottom: -4px;
   margin-left: -4px;
@@ -1737,7 +1773,7 @@ form button {
   width: 160px;
   padding: 5px 30px;
   border: 0;
-  margin-top: 15px;
+  margin-top: 17px;
   /*прозрачный фон кнопки для "Сбросить"*/
   background-color: rgba(28, 28, 28, 0);
   font-family: "PT Sans", sans-serif;
@@ -1900,7 +1936,7 @@ form button {
   grid-template-columns: repeat(3, 340px);
   padding: 0;
   margin: 0;
-  margin-bottom: 82px;
+  margin-bottom: 85px;
   margin-left: 92px;
   -webkit-column-gap: 18px;
   -moz-column-gap: 18px;
@@ -2043,7 +2079,7 @@ form button {
 }
 .hotel-one-stars {
   grid-column: -3 /-2;
-  background-image: url("../images/catalog/hotel-cards/Stars-Rating.svg");
+  background-image: url("../images/catalog/hotel-cards/stars-rating.svg");
   background-size: 18px;
   background-repeat: space;
   width: 35px;
@@ -2053,7 +2089,7 @@ form button {
 }
 .hotel-two-stars {
   grid-column: -3 /-2;
-  background-image: url("../images/catalog/hotel-cards/Stars-Rating.svg");
+  background-image: url("../images/catalog/hotel-cards/stars-rating.svg");
   background-size: 18px;
   background-repeat: space;
   width: 42px;
@@ -2063,7 +2099,7 @@ form button {
 }
 .hotel-three-stars {
   grid-column: -3 /-2;
-  background-image: url("../images/catalog/hotel-cards/Stars-Rating.svg");
+  background-image: url("../images/catalog/hotel-cards/stars-rating.svg");
   background-size: 18px;
   background-repeat: space;
   width: 66px;
@@ -2073,7 +2109,7 @@ form button {
 }
 .hotel-four-stars {
   grid-column: -3 /-2;
-  background-image: url("../images/catalog/hotel-cards/Stars-Rating.svg");
+  background-image: url("../images/catalog/hotel-cards/stars-rating.svg");
   background-size: 18px;
   background-repeat: space;
   width: 89px;
@@ -2083,7 +2119,7 @@ form button {
 }
 .hotel-five-stars {
   grid-column: -3 /-2;
-  background-image: url("../images/catalog/hotel-cards/Stars-Rating.svg");
+  background-image: url("../images/catalog/hotel-cards/stars-rating.svg");
   background-size: 18px;
   background-repeat: space;
   width: 35px;
@@ -2256,14 +2292,12 @@ form button {
 .inner-subscription {
   display: block;
   width: 1200px;
-  height: 411px;
   margin: 0 auto;
   color: #000000;
   background-color: #ffffff;
-  background-size: 100% auto;
+  background-size: cover;
   background-repeat: no-repeat;
-  padding: 0;
-  margin: 0;
+  padding: 70px 0 94px;
 }
 
 .inner-subscription-title {
@@ -2275,14 +2309,11 @@ form button {
   text-align: center;
   text-transform: uppercase;
   color: #000000;
-  margin: 0;
-  padding-top: 94px;
-  padding-bottom: 30px;
+  margin-bottom: 29px;
 }
 
 .inner-subscription-description {
   width: 475px;
-  height: 52px;
   font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-size: 22px;
@@ -2291,7 +2322,7 @@ form button {
   text-align: center;
   color: #000000;
   margin: 0 auto;
-  padding-bottom: 46px;
+  margin-bottom: 46px;
 }
 
 .inner-subscription-form {
@@ -2300,8 +2331,6 @@ form button {
   text-align: center;
   -ms-flex-line-pack: center;
   align-content: center;
-
-  padding: 0;
 }
 
 .inner-subscription-email {
@@ -2322,46 +2351,4 @@ form button {
 
 .inner-subscription-form input:focus {
   box-shadow: 0px 0px 0px 2px #81b3d2;
-}
-/*Подвал*/
-
-.footer-social-item {
-  width: 22px;
-  height: 16px;
-  margin-right: 23px;
-}
-.footer-social-ico {
-  color: #83b3d3;
-}
-.footer-social-ico:hover {
-  color: #68a2ca;
-}
-
-.footer-social-ico:focus {
-  color: #68a2ca;
-  outline: none;
-}
-
-.footer-social-ico:active {
-  color: rgba(104, 162, 202, 0.3);
-}
-
-.footer-social-ico:disabled:hover {
-  background: #e5e5e5;
-  outline: none;
-  cursor: default;
-}
-.footer-social-item:nth-child(3n) {
-  margin-right: 0;
-}
-
-.footer-social-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
 }
